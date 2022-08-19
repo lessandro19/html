@@ -5,10 +5,11 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>filmes.com</title>
  </head>
 
  <body>
+   <center> 
      <form action="#" method="get">
          <fieldset>
              <legend>Cadastro de Filmes</legend>
@@ -21,7 +22,7 @@
              <label for="nome">Gênero</label>
              <select id="genero"><br>
                <optgroup label="selecione o Gênero"> </optgroup>
-               
+
                  <option>Selecione o Gênero</option>
                  <option>Ação</option>
                  <option>Romance </option>
@@ -45,11 +46,20 @@
                  <option>9</option> 
                  <option>10</option>
              </select> <br>
+          
+          <p><b>Onde assistir?</b></p>
+              Netflix <input type="checkbox"> 
+              HBO <input type="checkbox"> 
+              Disney <input type="checkbox">
+              Amazon prime <input type="checkbox"> <br/>
+           
+           
+           
 
 
 
          </fieldset>
-
+</center>
  </body>
 
  </html>
