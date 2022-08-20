@@ -13,7 +13,7 @@
    <center> 
      <form action="#" method="get">
          <fieldset>
-             <h1 style="color: red;" >LE<h1>FILMS</h1>
+             <h1 style="color: red;" >LE<span style="color: black ;">FILMS</span></h1>
                
              <label for="Nome">Nome do filme</label>
              <input type="text" name="" id="Nome"> <br>
