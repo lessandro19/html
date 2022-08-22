@@ -9,20 +9,20 @@
    
  </head>
 
- <body>
+ <body style="background-color:black;">
    <center> 
-     <form action="#" method="get">
+     <form action="#" method="get" style="color: white;">
          <fieldset>
-             <h1 style="color: red;" >LE<span style="color: black ;">FILMS</span></h1>
+             <h1 style="color: red;" >LE<span style="color:white ;">FILMS</span></h1>
                
              <label for="Nome">Nome do filme</label>
-             <input type="text" name="" id="Nome"> <br>
-             <label for="nome">Sinopse</label> <br>
-             <textarea></textarea> <br>
+             <input type="text" name="" id="Nome" style="background-color: white;"> <br>
+             <label for="nome">Sinopse</label> <textarea style="background-color: white"></textarea> <br>
+             
              <label for="Nome">Data de lançamento</label>
-             <input id="date" type="date"> <br>
+             <input id="date" type="date" style="background-color: white;"> <br>
              <label for="nome">Gênero</label>
-             <select id="genero"><br>
+             <select id="genero" style="background-color: white;"><br>
                <optgroup label="selecione o Gênero"> </optgroup>
 
                  <option></option>
@@ -33,7 +33,7 @@
                  <option>Terror </option>
                  </select> <br>
              <label for="nota">Nota</label>
-             <select id="nota"><br>
+             <select id="nota" style="background-color: white;"><br>
                  <option></option>    
                  <option>0</option>    
                  <option>1</option>    
@@ -50,13 +50,13 @@
              </select> <br>
           
           <p><b>Onde assistir?</b></p>
-              Netflix <input type="checkbox"> 
-              HBO <input type="checkbox"> 
-              Disney <input type="checkbox">
-              Amazon prime <input type="checkbox"> <br/>
-           <p><b>Já assistiu?</b></p>
-            Sim <input type="radio" name="nome"> 
-              Não <input type="radio" name="nome"> 
+          HBO <input type="checkbox" > 
+          Disney <input type="checkbox" >
+          Amazon prime <input type="checkbox">
+          Netflix <input type="checkbox" > <br/>
+          <p><b>Já assistiu?</b></p>
+          Sim <input type="radio" name="nome" > 
+           Não <input type="radio" name="nome" style=> 
            
            
            
@@ -68,3 +68,4 @@
  </body>
 
  </html>
+
