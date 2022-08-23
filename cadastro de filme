@@ -15,9 +15,9 @@
          <fieldset>
              <h1 style="color: red;" >LE<span style="color:white ;">FILMS</span></h1>
                
-             <label for="Nome">Nome do filme</label>
+             <label for="Nome">Nome </label>
              <input type="text" name="" id="Nome" style="background-color: white;"> <br>
-             <label for="nome">Sinopse</label> <textarea style="background-color: white"></textarea> <br>
+             <label for="nome">Sinopse<label> <textarea style="background-color: white"></textarea> <br>
              
              <label for="Nome">Data de lançamento</label>
              <input id="date" type="date" style="background-color: white;"> <br>
@@ -56,7 +56,14 @@
           Netflix <input type="checkbox" > <br/>
           <p><b>Já assistiu?</b></p>
           Sim <input type="radio" name="nome" > 
-           Não <input type="radio" name="nome" style=> 
+           Não <input type="radio" name="nome" style=> <br>
+           <input type="submit">
+            <details>
+                
+            <summary> Clique para ver as opcões:</summary>
+            <p></p> 
+
+           </details>
            
            
            
@@ -68,4 +75,3 @@
  </body>
 
  </html>
-
